@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const express = require('express');
 
 const app = express();
@@ -9,8 +8,8 @@ app.get("/", (req, res) => {
     res.json({
         msg: "Hello World",
     })
-});
+})
 
 app.listen(PORT, () => {
-    console.log(`Server running at port ${PORT}`)
+    console.log(`Server running at port ${3000}`);
 })
